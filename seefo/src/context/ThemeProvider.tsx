@@ -20,7 +20,6 @@ const ThemeProviderContext = createContext<
 >(undefined);
 const ThemeProvider = ({ children }: themeProviderProps) => {
   const [mode, setMode] = useState<boolean>(false);
-  const theme = localStorage.getItem("theme");
 
   const toggleMode = () => {
     setMode((prevMode) => !prevMode);
@@ -29,6 +28,7 @@ const ThemeProvider = ({ children }: themeProviderProps) => {
   };
 
   useEffect(() => {
+    const theme = localStorage.getItem("theme");
     if (theme === "true") {
       setMode(true);
       document.body.classList.add("dark");
