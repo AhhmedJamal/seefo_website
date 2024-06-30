@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ThemeProvider from "@/context/ThemeProvider";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Seefo",
@@ -38,7 +39,10 @@ export default function RootLayout({
         <link rel="icon" href="/images/photo-camera.png" />
       </head>
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Header />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
