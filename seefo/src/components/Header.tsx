@@ -12,7 +12,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
-    <header className="flex items-center justify-between w-full py-5 relative px-4 sm-px-0">
+    <header className="flex items-center justify-between w-full py-5 relative">
       <h1 className="font-[myLogo] text-[35px]">Seefo</h1>
       <nav className="flex sm:gap-11 gap-5 items-center selection:bg-transparent">
         <div className="cursor-pointer" onClick={toggleMode}>
