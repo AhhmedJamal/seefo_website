@@ -5,7 +5,7 @@ const Gallery = () => {
     <div>
       <h2>Portfolio</h2>
       <div className="card">
-        <Image src="image1.jpg" alt="Image 1" />
+        {/* <Image src="image1.jpg" height={1} width={200} alt="Image 1" /> */}
       </div>
     </div>
   );
