@@ -8,8 +8,8 @@ import {
   SiAcer,
   SiDji,
 } from "react-icons/si";
-import Image from "next/image";
 import Marquee from "react-fast-marquee";
+
 const MarqueeCamera = () => {
   const brands = [
     SiNikon,
