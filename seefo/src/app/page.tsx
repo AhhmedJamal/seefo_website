@@ -5,7 +5,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main id="home" className="container m-auto min-h-screen overflow-hidden">
+    <main
+      id="home"
+      className="container m-auto min-h-[1000px] overflow-hidden px-4 sm-px-0 "
+    >
       <p className="text-[18px] mt-8">
         &quot; Welcome I&apos;m here toI turn ordinary moments into everlasting
         memories. With my experience and passion, I help you see the beauty in

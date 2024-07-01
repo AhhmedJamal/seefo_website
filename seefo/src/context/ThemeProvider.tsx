@@ -41,7 +41,7 @@ const ThemeProvider = ({ children }: themeProviderProps) => {
 
   return (
     <ThemeProviderContext.Provider value={{ mode, toggleMode }}>
-      <div className="px-4 sm-px-0">{children}</div>
+      {children}
     </ThemeProviderContext.Provider>
   );
 };

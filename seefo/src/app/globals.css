@@ -18,9 +18,9 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @apply m-0 p-0 box-border;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 *::selection {
   background-color: #b51601;

@@ -26,7 +26,7 @@ const Header = () => {
     }
   };
   return (
-    <header className="flex items-center justify-between w-full py-5 relative">
+    <header className=" container m-auto flex items-center justify-between w-full py-5 relative px-4 sm-px-0">
       <Link href={"/"} className="font-[myLogo] text-[35px]">
         Seefo
       </Link>

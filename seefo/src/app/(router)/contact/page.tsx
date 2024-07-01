@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section
       id="blur"
-      className="flex flex-col justify-evenly items-center h-[88vh]"
+      className="flex flex-col justify-evenly items-center h-[80vh] px-4 sm-px-0"
     >
       <h1 className="text-[30px]">Contact</h1>
       <div className="flex justify-center gap-8">
@@ -30,7 +30,7 @@ const Contact = () => {
             className="dark:bg-[#fefaf6] bg-[#0b0b0b] text-[#fefaf6] dark:text-[#0b0b0b] rounded-lg p-1"
           />
         </Link>
-        <Link href={"https://wa.me/01060315379"} target="_blank">
+        <Link href={"https://wa.me/+201060315379"} target="_blank">
           <FaWhatsapp
             size={30}
             className="dark:bg-[#fefaf6] bg-[#0b0b0b] text-[#fefaf6] dark:text-[#0b0b0b] rounded-lg p-1"
