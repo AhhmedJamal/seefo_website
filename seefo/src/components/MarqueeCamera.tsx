@@ -27,7 +27,7 @@ const MarqueeCamera = () => {
       gradientWidth={200}
       gradientColor="white"
       pauseOnHover={true}
-      className="my-8 bg-[#0b0b0b] dark:bg-[#fefaf6] py-1 "
+      className="my-5 bg-[#0b0b0b] dark:bg-[#fefaf6] py-1 "
     >
       <div className="flex items-center ">
         {brands.map((BrandIcon, index) => (

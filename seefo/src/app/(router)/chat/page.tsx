@@ -1,5 +1,5 @@
 const Chat = () => {
-  return <div>Chat</div>;
+  return <section id="blur">Chat</section>;
 };
 
 export default Chat;
