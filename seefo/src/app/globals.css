@@ -1,14 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* font global app */
-@font-face {
+/* @font-face {
   font-family: "MyFontRegular";
   src: url("/fonts/GreaterTheory.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 /* font logo  */
 @font-face {
   font-family: "myLogo";
@@ -29,8 +30,10 @@
 body {
   background-color: #fefaf6;
   color: #0b0b0b;
-  font-family: "MyFontRegular", sans-serif;
-  transition: background-color 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .dark {
   background-color: #0b0b0b;

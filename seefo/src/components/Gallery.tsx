@@ -1,11 +1,12 @@
 import Image from "next/image";
+import { SiImagej } from "react-icons/si";
 
 const Gallery = () => {
   return (
-    <div>
+    <div className="my-3">
       <h2>Portfolio</h2>
       <div className="card">
-        {/* <Image src="image1.jpg" height={1} width={200} alt="Image 1" /> */}
+        <SiImagej size={70} />
       </div>
     </div>
   );

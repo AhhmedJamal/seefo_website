@@ -4,7 +4,7 @@ import React from "react";
 const Chat = () => {
   return (
     <section
-      id="blur"
+    
       className="font-bold text-[40px] flex flex-col gap-5 justify-center items-center h-[60vh] px-4 sm-px-0"
     >
       Soon...

@@ -29,7 +29,7 @@ const ButtonScrollTop = () => {
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: visible ? 1 : 0, scale: visible ? 1 : 0 }}
         transition={{ duration: 0.2 }}
-        className="fixed right-5 bottom-5 text-[30px] text-[#fefaf6] bg-[#0b0b0b] dark:bg-[#fefaf6] dark:text-[#0b0b0b] p-[2px] rounded-md"
+        className="fixed right-7 bottom-7 text-[30px] text-[#fefaf6] bg-[#0b0b0b] dark:bg-[#fefaf6] dark:text-[#0b0b0b] p-[2px] rounded-md"
       >
         <IoIosArrowUp onClick={ScrollTop} />
       </motion.div>

@@ -17,8 +17,9 @@ const Nav = ({
   return (
     <ul
       className={
-        `${isMobile !== true ? "sm:flex hidden " : "flex flex-col "}` +
-        "items-center gap-7 transition-all"
+        `${
+          isMobile !== true ? "sm:flex hidden " : "flex flex-col text-[22px] "
+        }` + "items-center gap-7 transition-all "
       }
     >
       {links.map((link, index) => (
